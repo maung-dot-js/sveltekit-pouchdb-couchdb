@@ -2,9 +2,7 @@
 // for information about these interfaces
 // and what to do when importing types
 declare module 'nprogress';
-declare module 'pouchdb';
 declare module 'pouchdb-browser';
-declare module 'pouchdb-find';
 declare namespace App {
 	// interface Error {}
 	// interface Locals {}

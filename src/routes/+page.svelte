@@ -1,10 +1,8 @@
 <script lang="ts">
 	import TodoItem from './todo-item.svelte';
 	import PouchDB from 'pouchdb-browser';
-	import pouchdbFind from 'pouchdb-find';
 	import { onMount } from 'svelte';
 
-	PouchDB.plugin(pouchdbFind);
 	const localDB = new PouchDB('db');
 	var remoteDB = new PouchDB('http://localhost:5984/test_couch');
 
